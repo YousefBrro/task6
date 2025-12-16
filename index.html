@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ONLINE STORE</title>
+</head>
+<body>
+    <header>
+        <!-- start navbar -->
+        <nav class="navbar">
+            <h1 class="logo">ONLINE STORE</h1>
+            <button class="dashboard"><a href="./admin.html">Dashboard</a></button>
+        </nav>
+    </header>
+    <!-- end navbar -->
+    <main>
+        <section class="controls">
+            <h2>Filters : </h2>
+            <input type="text" id="searchInput" class="input" placeholder="search...">
+            <select id="categoryFilter" class="input">
+                <option>All option</option>
+                <option>Clothes</option>
+                <option>Elctronics</option>
+        </select>
+        <select id="priceSort" class="input">
+            <option>price</option>
+            <option value="asc">Price from lowest</option>
+            <option value="desc">Price from largest</option>
+        </select>
+        </section>
+    </main>
+    <section id="slider" class="slider"></section>
+    <section id="productCards" class="cards"></section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

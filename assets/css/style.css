@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .logo{
+        font-size: 20px;
+    }
+    .dashboard {
+        font-size: 14px;
+        padding: 10px;
+        background-color: black;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.controls{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    .input{
+        width: 300px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+.productForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+th,td{
+    border: 2px solid black;
+    padding: 20px;
+}

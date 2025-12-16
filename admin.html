@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Product Management</h1>
+            <button class="dashboard"><a href="./index.html">Home Page</a></button>
+        </nav>
+    </header>
+    <main>
+        <section class="controls">
+            <form id="productForm" class="form">
+            <input type="text" id="name" placeholder="Name Product" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="url" id="image" placeholder="Image Link" required>
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <table id="productTable" class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    </main>
+
+    <script src="./assets/js/admin.js"></script>
+</body>
+</html>

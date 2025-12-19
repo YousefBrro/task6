@@ -16,27 +16,32 @@
     <main>
         <section class="controls">
             <form id="productForm" class="form">
-            <input type="text" id="name" placeholder="Name Product" required>
-            <input type="number" id="price" placeholder="Price" required>
-            <input type="text" id="category" placeholder="Category" required>
-            <input type="url" id="image" placeholder="Image Link" required>
-            <button type="submit">Submit</button>
+            <input type="text" id="name" class="input" placeholder="Name Product" required>
+            <input type="number" id="price" class="input" placeholder="Price" required>
+            <input type="text" id="category" class="input" placeholder="Category" required>
+            <input type="url" id="image" class="input"  placeholder="Image Link" required>
+            <button type="submit" class="btn">Add Product</button>
             </form>
         </section>
         <section>
-            <table id="productTable" class="table">
+            <table id="productTable">
                 <thead>
                     <tr>
                         <th>Name</th>
                         <th>Price</th>
                         <th>Category</th>
                         <th>Image</th>
+                        <th>
+                            
+                        </th>
                     </tr>
                 </thead>
+                <tbody id="productPanel">
+                </tbody>
             </table>
         </section>
     </main>
-
-    <script src="./assets/js/admin.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
+
